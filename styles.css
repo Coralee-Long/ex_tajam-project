@@ -12,28 +12,6 @@ font-family: 'Roboto', sans-serif;
 
 /* SECTION #1: HEADER ___________________________________________    */
 
-.placeholder-bgnd {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.placeholder-txt-wht {
-   
-  font-size: large;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
 /* SECTION #2: OUR STORY ___________________________________________    */
 
@@ -43,7 +21,6 @@ font-family: 'Roboto', sans-serif;
     max-height: 400px;
     padding-top: 65px;
     padding-bottom: 75px;
-
 }
 
 .ourStoryTable {
@@ -60,7 +37,6 @@ font-family: 'Roboto', sans-serif;
     float: left;
     padding-left: 45px;
 }
-
 
 .ourStory-left img {
     height: 220px;
@@ -94,7 +70,6 @@ font-family: 'Roboto', sans-serif;
     padding: 10px 15px;
 }
 
-
 .img-background {
     height: 600px;
     width: 100%;
@@ -102,7 +77,6 @@ font-family: 'Roboto', sans-serif;
     background-size: cover;
     background-position: 50% 50%;
 }
-
 
 .watchClick-overlay {
   position: absolute;
@@ -150,10 +124,6 @@ font-family: 'Roboto', sans-serif;
     border-bottom: 1px solid #ebebeb;
 }
 
-.expertise-bottomRow {
-    /* padding-bottom: 50px; */
-}
-
 .expertiseHeading {
    padding: 70px;
    padding-bottom: 80px;
@@ -186,7 +156,6 @@ hr {
     
 }
 
-
 .expertise-h3 {
     font-family: 'Hammersmith One', sans-serif;
     color: #413d4b;
@@ -208,223 +177,6 @@ hr {
 
 /* SECTION #5: CONTACT ___________________________________________    */
 
-.contactClients {
-    margin: auto;
-    width: 100%;
-    height: 650px;
-    padding-top: 75px;
-    text-align: center;
-}
-
-
-
-.container{    
-    width: auto;
-    height: 700px;    
-    justify-content: center;  
-    text-align :center;
-}
-
-
-.contact{
-    vertical-align: top;
-    height:5000px;
-    width:400px;
-    padding-top: 80px; 
-    padding-right: 40px;
-    display:inline-block;
-    /* justify-content: center;
-    text-align: left; */
-}
-
-.client{
-    vertical-align: top;
-    height:500px;
-    width:400px;
-    padding-top: 80px;  
-    padding-left: 40px;
-    display:inline-block;
-}
-
- 
-
-.imgRowOne, .imgRowTwo, .imgRowThree, .imgRowFour,.imgRowFive{
-   
-    margin:0;
-    padding: 5px;
-    display:inline-block;
-    text-align: center;
-    
-}
-
-.imgLogo img{
-    /* padding: 0 5px; */
-    margin: 0;
-    width:150px;
-}
-
-.imgLH {
-    padding-right: 20px;
-    padding-bottom: 15px;
-}
-
-.imgRH {
-    padding-left: 20px;
-    padding-bottom: 15px;
-}
-
-
-#btnSubmit{
-    background-color: white; 
-    border: 1px solid darkturquoise;
-    color: darkturquoise;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px 25px; 
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 16px; 
-}
-
-#formh2 {
-    padding-bottom: 20px;
-    text-align: left;
-    font-family: 'Playfair Display', serif;
-    color: #413d4b;
-    letter-spacing: 0.1rem;
-    
-}
-
-#divClienth2 {
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 20px;
-    font-family: 'Playfair Display', serif;
-    color: #413d4b;
-    letter-spacing: 0.1rem;
-    
-}
-
-.formPadding{
-    padding: 5px 0;
-
-} 
-input {
-    border-color: rgb(182, 182, 182);
-    border-style:solid;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    width: 90%;
-    padding: 15px;
-}
-
-::placeholder {
-        color: rgb(182, 182, 182);
-        opacity: 1;
-    }
-
-textarea {
-    border-color: rgb(182, 182, 182);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    width: 90%;
-    height: 175px;
-    padding: 15px;
-}
-
-
-.submit-btn {
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
 
 /* SECTION #6: FOOTER ___________________________________________    */
 
-.outerFooter{
-    justify-content: center;  
-    text-align :center;
-}
-
-
-
-.footer{
-    margin-top: 100px;
-    width:33%;
-    color: white;
-    opacity: 0.75;
-    display: inline-block; 
-}
-
-.tajamFooter1,.tajamFooter2,.tajamFooter3{
-    display: flex;
-    text-align: left;
-}
-
-/* .tajamFooter1 td{
-    text-align: left;
-} */
-
-/* .tajamFooter2{
-    display: flex;
-    text-align: left;
-} */
-
-.tajamFooter1,.tajamFooter2,.tajamFooter3 td{
-    padding: 5px 10px;
-}
-
-
-.ourStudio,.stayTouch,.tajamFooterLogo{
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-.lblSubscribe{
-border-left: 1px solid gray;
-border-top: 3px solid gray;
-border-right: 1px solid gray;
-margin-right: 20px;
-}
-
-.imgPaper{
-    background-color: white;
-    opacity: 0.5;
-    padding: 0;
-    margin: 0;
-    width:10px;
-    height:10px;
-}
-
-.termsAndCondition{
-    width: auto;
-    display: inline-block;      
-    justify-content: center;
-}
-
-.footerLink{
-    width:1000px;
-    display: inline-block;
-    }
-
-.copyright{
-    width:300px;
-    display: inline-block; 
-    
-}
-
-.termsAndCondition a{
-    text-decoration: none;
-    color: white;
-    opacity: 0.75;    
-    margin: 20px; 
-}
-
-.termsAndCondition  p{
-    color: white;
-    opacity: 0.75;
-    
-}
