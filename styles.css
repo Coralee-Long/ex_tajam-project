@@ -6,305 +6,10 @@ font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif; 
 */
 
-
-* {
-    margin: 0;
-    padding:0;
-}
-
-.container{    
-    width: auto;
-    height: 700px;    
-    justify-content: center;  
-    text-align :center;   
-    
-}
-
-
-.contact{
-    vertical-align: top;
-    height:700px;
-    width:400px;
-    padding-top: 80px; 
-    padding-right: 40px;
-    display:inline-block;
-    /* justify-content: center;
-    text-align: left; */
-    
-    
-}
-
-.client{
-    vertical-align: top;
-    height:700px;
-    width:400px;
-    padding-top: 80px;  
-    padding-left: 40px;
-    display:inline-block;
-}
-
-.formPadding{
-    padding: 5px 0;
-}  
-
-input {
-    border-color: rgb(182, 182, 182);
-    border-style:solid;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    width: 90%;
-    padding: 15px;
-}
-
-::placeholder {
-        color: rgb(182, 182, 182);
-        opacity: 1;
-    }
-
-textarea {
-    border-color: rgb(182, 182, 182);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    width: 90%;
-    height: 175px;
-    padding: 15px;
-}
-
-.imgRowOne, .imgRowTwo, .imgRowThree, .imgRowFour,.imgRowFive{
-   
-    margin:0;
-    padding: 5px;
-    display:inline-block;
-    text-align: center;
-    /* height: 40px;   */
-}
-
-.imgLogo img{
-    /* padding: 0 5px; */
-    margin: 0;
-    width:150px;
-}
-
-.imgLH {
-    padding-right: 20px;
-    padding-bottom: 15px;
-}
-
-.imgRH {
-    padding-left: 20px;
-    padding-bottom: 15px;
-}
-
-
-#btnSubmit{
-    background-color: white; 
-    border: 1px solid darkturquoise;
-    color: darkturquoise;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px 25px; 
-    text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
-    font-size: 16px;   
-}
-
-.submit-btn {
-    text-align: left;
-    padding-top: 10px;
-    padding-left: 5px;
-}
-
-
-#formh2 {
-    padding-bottom: 20px;
-    text-align: left;
-    font-family: 'Playfair Display', serif;
-    color: #413d4b;
-    letter-spacing: 0.1rem;    
-}
-
-#divClienth2 {
-    padding-bottom: 10px;
-    text-align: left;
-    padding-left: 20px;
-    font-family: 'Playfair Display', serif;
-    color: #413d4b;
-    letter-spacing: 0.1rem;    
-}
-
-.footerMain{
-    width: auto;   
-}
-
-.bgkFooterImage{
-    background-image: url('images/bgk-footer.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width:100%;
-    height:450px;
-}
-
-.outerFooter{
-    justify-content: center;  
-    text-align :center;
-    height: 350px;    
-}
-
-.footer1{
-    vertical-align: top;
-    margin-top: 100px; 
-    width:25%;
-    color: white;  
-    display: inline-block; 
-    height:300px;
-    padding-left: 20px;
-}
-
-.footer2{
-    vertical-align: top;
-    margin-top: 100px; 
-    width:23%;
-    color: white;  
-    display: inline-block; 
-    height:300px;
-    padding-left: 20px;
-    padding-right: 0px;
-}
-
-.footer3{
-    vertical-align: top;
-    margin-top: 100px; 
-    width:20%;
-    color: white;   
-    display: inline-block; 
-    height:300px;
-    padding-left: 10px;
-}
-
-.tajamFooter1,.tajamFooter2,.tajamFooter3{
-    display: flex;
-    text-align: left;
-    opacity: 0.75;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1rem;
-    color: white;
-}
-
-
-.tajamFooter1,.tajamFooter2,.tajamFooter3 td{
-    padding: 5px 10px;
-    /* height: 120px; */
-    margin-bottom: 0px; 
-    padding-bottom: 0px;
-}
-
-.tajamFooter2 td img{
-    margin-right: 3px;
-}
-
-.ourStudio,.stayTouch,.tajamFooterLogo{
-    text-align: left;  
-    padding-bottom: 0px;
-    height: 79px;
-}
-
-.ourStudio,.stayTouch {
-    padding: 30px 0px 25px 2px;
-    height:25px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1rem;
-}
-
-
-.imgFooterLogo{
-    height:80px;
-    margin:0px;
-    padding: 0px;
-}
-
-.lblSubscribe{
-border: 2px solid gray;
-height:30px;
-text-align: center;
-}
-
-
-.imgPaper{
-    background-color: white;
-    opacity: 0.5;
-    padding: 0;
-    margin: 0;
-    width:10px;
-    height:10px;
-}
-
-.logosSocial img{
-    padding-right: 4px;
-}
-
-.outerFooterCondition{
-    /* width: 80%; */
-    /* width: auto;
-    display: flex;      
-    justify-content: center;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 0.95rem;
-    padding-right: 350px; */
-    justify-content: center;
-    text-align: center;
-   
-}
-
-.termsAndCondition{   
-    display: flex;      
-    justify-content: center;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 0.95rem;   
-    padding-left: 0px;
-    margin-left: 0px;
-    padding-right: 250px; 
-}
-
-.footerLink{
-    width:65%;
-    display: inline-block;
-   padding-right: 0px;
-   margin-right: 0px;
- }
-
-.copyright{
-    width:35%;
-    display: inline-block; 
-    color: white;
-    opacity: 0.75;
-    text-align: right;    
-}
-
-.footerLink a{
-    text-decoration: none;
-    color: white;
-    opacity: 0.75;      
-    margin: 0px;
-    padding-left: 0px;
-    padding-right: 20px;
-    text-align: center;
-}
-
-
 * {
     margin: 0;
 }
 
-/* SECTION #1: HEADER ___________________________________________    */
 
 
 /* SECTION #2: OUR STORY ___________________________________________    */
@@ -315,6 +20,7 @@ text-align: center;
     max-height: 400px;
     padding-top: 65px;
     padding-bottom: 75px;
+
 }
 
 .ourStoryTable {
@@ -331,6 +37,7 @@ text-align: center;
     float: left;
     padding-left: 45px;
 }
+
 
 .ourStory-left img {
     height: 220px;
@@ -364,6 +71,7 @@ text-align: center;
     padding: 10px 15px;
 }
 
+
 .img-background {
     height: 600px;
     width: 100%;
@@ -371,6 +79,7 @@ text-align: center;
     background-size: cover;
     background-position: 50% 50%;
 }
+
 
 .watchClick-overlay {
   position: absolute;
@@ -418,6 +127,10 @@ text-align: center;
     border-bottom: 1px solid #ebebeb;
 }
 
+.expertise-bottomRow {
+    /* padding-bottom: 50px; */
+}
+
 .expertiseHeading {
    padding: 70px;
    padding-bottom: 80px;
@@ -450,6 +163,7 @@ hr {
     
 }
 
+
 .expertise-h3 {
     font-family: 'Hammersmith One', sans-serif;
     color: #413d4b;
@@ -463,8 +177,6 @@ hr {
     font-size: 1rem;
     padding-bottom: 20px;
 }
-
-
 
 
 
