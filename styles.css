@@ -22,6 +22,11 @@
     padding: 10px 70px;
 }
 
+.nav-logo img {
+    width: 150px;
+    height: 75px;
+}
+
 .nav-link {
     display: flex;
     align-items: center;  
