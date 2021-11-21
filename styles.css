@@ -1,81 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@700;900&family=Roboto:wght@100;300;900&display=swap');
 
-/* 
-font-family: 'Hammersmith One', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Roboto', sans-serif; 
-*/
-
 * {
     margin: 0;
-    /* border: 1px solid red; */
 }
 
 /* SECTION #1: HEADER ___________________________________________    */
 
-/**
- * Images a now responsive
- */
- img {
-	max-width: 100%;
-	height: auto;
+.img-bgnd-header {
+    width: 100%;
+    height: 600px;
+    background-image: url('images/bgk-header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-/**
- * Limit the container in
- * width for big screens
- */
-.header-container {
-	width: 960px;
-	max-width: 100%;
-	padding: 5px 20px;
-	margin: 0 auto;
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 70px;
 }
 
-/**
- * By using display: flex
- * Logo and nav are in 2 cols
- * align-items make them
- * vertically centered
- * justify-content distribute
- * horizontal spaces around
- * and flex-wrap break the
- * things in two lines in
- * small screens
- */
-.main-header .header-container {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.nav-link {
+    display: flex;
+    align-items: center;  
 }
 
-/**
- * The followings are to
- * make things more
- * clean and airy
- * and contents centered
- */
-.main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-.main-nav li {
-	display: inline;
-}
-
-.main-nav a {
-	display: inline-block;
-	padding: .3em 1.5em;
-    text-decoration: none;
+.nav-link a {
+    padding: 10px;  
     font-family: 'Hammersmith One', sans-serif;
     color: white;
-    padding: 10px 20px;
+    padding: 20px 10px;
+    text-decoration: none;
+    transition: color 1s;
 }
 
-.mh-logo img {
-      width: 160px;
-      padding-top: 10px;
+.nav-link a:hover { 
+    color: #00e0d0;
 }
 
 .aweHead {
@@ -96,27 +58,14 @@ font-family: 'Roboto', sans-serif;
     padding-bottom: 20px;
 }
 
-.img-background {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-position: 50% 50%;
-}
-
-.awesome {
-  font-size: large;
-  position: absolute;
-  height: 100%;
+ .awesome {
   width: 100%;
-  top: 0;
-  left: 0;
-  color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   flex-direction: column;
-}
+  padding-top: 110px;
+} 
 
 #header-line {
     width: 60px;
@@ -136,7 +85,7 @@ font-family: 'Roboto', sans-serif;
     opacity: 0.9;
     letter-spacing: 0.05rem;
     padding: 10px 15px;
-}
+} 
 
 /* SECTION #2: OUR STORY ___________________________________________    */
 
@@ -147,8 +96,6 @@ font-family: 'Roboto', sans-serif;
     padding-top: 65px;
     padding-bottom: 75px;
 }
-
-
 
 .ourStory-left {
     width: 35%;
@@ -282,7 +229,6 @@ hr {
     text-align: center;
     padding-bottom: 20px;
 }
-
 
 .expertise-h3 {
     font-family: 'Hammersmith One', sans-serif;
@@ -421,7 +367,6 @@ hr {
     padding: 10px 15px;
 }
 
-
 /* SECTION #5: CONTACT & CLIENT___________________________________________  */
 
 .contact{
@@ -459,7 +404,7 @@ input {
 ::placeholder {
         color: rgb(182, 182, 182);
         opacity: 1;
-    }
+}
 
 textarea {
     border-color: rgb(182, 182, 182);
@@ -590,7 +535,6 @@ textarea {
     color: white;
 }
 
-
 .tajamFooter1,.tajamFooter2,.tajamFooter3 td{
     padding: 5px 10px;
     margin-bottom: 0px; 
@@ -616,7 +560,6 @@ textarea {
     font-size: 1rem;
 }
 
-
 .imgFooterLogo{
     height:80px;
     margin:0px;
@@ -629,7 +572,6 @@ height:30px;
 text-align: center;
 width:85%;
 }
-
 
 .imgPaper{
     background-color: white;
@@ -652,7 +594,6 @@ width:85%;
 
 .termsAndCondition{   
     display: flex;      
-     /*commented width*/
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -676,8 +617,6 @@ width:85%;
    display: inline-block;
    padding-right: 0px;
    margin-right: 0px;
-
-   /*added on 21.11.2021*/
    margin-left:10px;
    padding-left: 20px;
    justify-content: left;
@@ -690,8 +629,6 @@ width:85%;
     color: white;
     opacity: 0.75;
     text-align: right;    
-
-     /*added on 21.11.2021*/    
     justify-content: right;
     width:50%;
     padding-right: 50px;
