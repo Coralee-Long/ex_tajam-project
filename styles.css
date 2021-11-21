@@ -8,7 +8,7 @@ font-family: 'Roboto', sans-serif;
 
 * {
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 /* SECTION #1: HEADER ___________________________________________    */
@@ -620,6 +620,7 @@ textarea {
     font-size: 1rem;
 }
 
+
 .imgFooterLogo{
     height:80px;
     margin:0px;
@@ -630,7 +631,9 @@ textarea {
 border: 2px solid gray;
 height:30px;
 text-align: center;
+width:85%;
 }
+
 
 .imgPaper{
     background-color: white;
@@ -639,20 +642,21 @@ text-align: center;
     margin: 0;
     width:10px;
     height:10px;
+    width:15%;
 }
 
 .logosSocial img{
     padding-right: 4px;
 }
 
-.outerFooterCondition{
+.outerFooterCondition{ 
     justify-content: center;
     text-align: center;
-   
 }
 
 .termsAndCondition{   
     display: flex;      
+     /*commented width*/
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -660,22 +664,45 @@ text-align: center;
     font-size: 0.95rem;   
     padding-left: 0px;
     margin-left: 0px;
-    padding-right: 250px; 
+    height: 50px;  
+
 }
 
-.footerLink{
-    width:65%;
-    display: inline-block;
-    padding-right: 0px;
-    margin-right: 0px;
+
+.termsAndCondition table{
+    width: 100%;
+
+}
+
+.termsAndCondition td{  
+    margin-bottom: 0px; 
+    padding-bottom: 0px;
+}
+
+.footerLink{   
+   display: inline-block;
+   padding-right: 0px;
+   margin-right: 0px;
+
+   /*added on 21.11.2021*/
+   margin-left:10px;
+   padding-left: 20px;
+   justify-content: left;
+   text-align: left;
+   width:50%;   
  }
 
-.copyright{
-    width:35%;
+.copyright{   
     display: inline-block; 
     color: white;
     opacity: 0.75;
     text-align: right;    
+
+     /*added on 21.11.2021*/    
+    justify-content: right;
+    width:50%;
+    padding-right: 50px;
+    padding-left: 0px;
 }
 
 .footerLink a{
@@ -683,7 +710,5 @@ text-align: center;
     color: white;
     opacity: 0.75;      
     margin: 0px;
-    padding-left: 0px;
-    padding-right: 20px;
-    text-align: center;
+    padding-left: 10px;  
 }
